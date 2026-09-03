@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Our Cafe on My Little Cafe</title>
+		<link>http://localhost:57616/</link>
+		<description>Recent content in Our Cafe on My Little Cafe</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 03 Sep 2026 14:31:45 +0100</lastBuildDate>
+		
+			<atom:link href="http://localhost:57616/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Home</title>
+				<link>http://localhost:57616/home/</link>
+				<pubDate>Thu, 03 Sep 2026 14:31:45 +0100</pubDate>
+				<guid>http://localhost:57616/home/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Menu</title>
+				<link>http://localhost:57616/menu/</link>
+				<pubDate>Thu, 03 Sep 2026 14:31:45 +0100</pubDate>
+				<guid>http://localhost:57616/menu/</guid>
+				<description>&lt;p&gt;Welcome to our menu — fresh, local, and made with love.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

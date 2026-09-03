@@ -1,0 +1,31 @@
+{{ define "main" }}
+<div class="menu-wrapper">
+  <article class="menu-page">
+    <header class="menu-header">
+      <h1>{{ .Title }}</h1>
+      {{ .Content }}
+    </header>
+
+    {{ range .Params.categories }}
+    <section class="menu-category">
+      <h2>{{ .name }}</h2>
+      <div class="menu-divider"></div>
+      <ul class="menu-items">
+        {{ range .items }}
+        <li class="menu-item">
+          <div class="menu-item-header">
+            <span class="menu-item-name">{{ .name }}</span>
+            <span class="menu-item-dots"></span>
+            {{ if .price }}<span class="menu-item-price">{{ .price }}</span>{{ end }}
+          </div>
+          {{ if .description }}
+          <p class="menu-item-desc">{{ .description }}</p>
+          {{ end }}
+        </li>
+        {{ end }}
+      </ul>
+    </section>
+    {{ end }}
+  </article>
+</div>
+{{ end }}
